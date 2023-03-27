@@ -1,0 +1,20 @@
+.css-dnb1aj{
+    margin:20px;
+    padding: 0px;
+}
+
+.displayFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexStart{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flexEnd{
+    display: flex;
+    justify-content: flex-end;
+}
