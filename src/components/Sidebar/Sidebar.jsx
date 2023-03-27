@@ -274,6 +274,7 @@ const Sidebar = ({
             let data = allPrdtData.concat(createdProductData);
             setAllPrdtData(data);
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [createdProductData]);
 
     useEffect(() => {
@@ -289,6 +290,7 @@ const Sidebar = ({
             });
             setAllPrdtData(modifiedData);
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [updatedProductData]);
 
     useEffect(() => {
@@ -296,6 +298,7 @@ const Sidebar = ({
             const filteredRemProduct = allPrdtData.filter((item) => item.id !== deletedProductData.id);
             setAllPrdtData(filteredRemProduct);
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [deletedProductData]);
 
     const handleListItemClick = (event, index) => {
